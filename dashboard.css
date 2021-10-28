@@ -1,4 +1,8 @@
 
+*{
+    margin: 0;
+}
+
 .body{
     width: 100%;
     margin: 0 auto;
@@ -8,31 +12,32 @@
     background-color: rgb(66, 66, 66);
     float: right;
     width: 90%;
-    height: 123px;
+    height: 115px;
     box-shadow: 2px 2px 3px grey;
-    border-top: 2px dashed black;
+    border-top: 1px dashed black;
     border-right: 2px dashed black;
     border-bottom: 2px dashed black;
+    margin-right: 2px;
 }
 
 .titulo{
     color: #ffff;
     display: flex;
     justify-content: center;
-    margin-top:20px;
-    text-shadow: 1px 1px 1px rgb(177, 0, 9);
+    margin-top:35px;
+    text-shadow: 2px 2px 1px rgb(177, 0, 9);
 }
 
 .aside-1{
     background-color: rgb(39, 39, 39);
     float: left;
     width: 182px;
-    height: 920px;
+    height: 935px;
     box-shadow: 2px 2px 3px grey;
     border-left: 3px dashed black;
     border-right: 1px dashed black;
-    border-bottom: 3px dashed black;
-    border-top: 3px dashed black;
+    border-bottom: 2px dashed black;
+    border-top: 1px dashed black;
 }
 
 .logo{
@@ -73,10 +78,11 @@ li:hover{
 .main-1{
     background-color:rgb(219, 218, 218) ;
     width: 90%;
-    height: 797px;
+    height: 820px;
     float: right;
     box-shadow: 2px 2px 2px grey;
     border-right: 1px dashed black;
+    margin-right: 1px;
 }
 
 .container1, .container2, .container3{
